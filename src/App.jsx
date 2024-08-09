@@ -10,6 +10,8 @@ import EligibilityPage from './health and care/Health-Care'
 import Slider from './slider/Slider'
 import Registration from './register/Registration'
 import Eligibility from './elegibility/Elegibility'
+import Contactus from './contact us/Contact'
+// import Contact from './contact us/Contact.jsx'
 
 
 function App() {
@@ -37,6 +39,10 @@ function App() {
     {
       path: "/elegibility",
       element: <><Navbar /><Eligibility/></>
+    },
+    {
+      path: "/contactus",
+      element: <><Navbar /><Contactus/></>
     },
   ])
   return (
